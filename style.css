@@ -58,7 +58,6 @@ div {
 
 label {
     justify-self: start;
-    /* Align label to the start (left) */
     color: white;
     font-size: 20px;
     margin: 1%;
@@ -69,14 +68,12 @@ textarea,
 select {
 
     justify-self: end;
-    /* Align input to the end (right) */
     color: rgb(43, 5, 5);
     border-radius: 10px;
     background-color: rgb(176, 149, 123);
     padding: 2%;
     margin-top: 30px;
     width: 100%;
-    /* Ensure input spans full width of its grid area */
 }
 
 button {
