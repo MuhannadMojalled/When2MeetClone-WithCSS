@@ -1,0 +1,121 @@
+h1 {
+    background-color: rgb(43, 5, 5);
+    color: white;
+    font-size: 50px;
+    padding: 1%;
+    margin: 0%;
+}
+
+nav ul {
+    margin: 0%;
+    background-color: rgb(43, 5, 5);
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: rgb(176, 149, 123);
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(176, 149, 123);
+    font-family: Arial, sans-serif;
+    color: rgb(43, 5, 5);
+    margin: 0%;
+    padding: 0%;
+}
+
+h2 {
+    padding: 1%;
+    margin: 0%;
+}
+
+div {
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(43, 5, 5);
+    padding: 2%;
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+label {
+    justify-self: start;
+    /* Align label to the start (left) */
+    color: white;
+    font-size: 20px;
+    margin: 1%;
+}
+
+input,
+textarea,
+select {
+
+    justify-self: end;
+    /* Align input to the end (right) */
+    color: rgb(43, 5, 5);
+    border-radius: 10px;
+    background-color: rgb(176, 149, 123);
+    padding: 2%;
+    margin-top: 30px;
+    width: 100%;
+    /* Ensure input spans full width of its grid area */
+}
+
+button {
+    display: block;
+    align-self: center;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(43, 5, 5);
+    padding: 2%;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 1%;
+    margin: 0 auto;
+    border-top: 1px solid rgb(43, 5, 5);
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 97%;
+    margin: 10px;
+    padding: 10%;
+    background-color: rgb(43, 5, 5);
+    color: white
+}
+
+p {
+    text-align: center;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
