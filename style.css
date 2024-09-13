@@ -1,4 +1,5 @@
 h1 {
+    display: inline;
     background-color: rgb(43, 5, 5);
     color: white;
     font-size: 50px;
@@ -6,24 +7,33 @@ h1 {
     margin: 0%;
 }
 
-nav ul {
-    margin: 0%;
+nav {
     background-color: rgb(43, 5, 5);
+    color: white;
+    padding: 1%;
+    margin: 0%;
+}
+
+nav ul li {
+    display: inline;
     list-style: none;
     color: white;
     font-size: 20px;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 1%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    border-right: 1px solid white;
 
 }
 
 ul a {
     color: white;
     text-decoration: none;
+}
+
+nav ul li:last-child {
+    border-right: none;
+
 }
 
 ul a:hover {
@@ -86,6 +96,7 @@ button {
     margin: auto;
     width: 50%;
     margin-bottom: 10px;
+    font-size: larger;
 
 }
 
