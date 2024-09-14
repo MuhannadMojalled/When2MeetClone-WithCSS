@@ -127,3 +127,11 @@ td {
     padding: 10px;
     text-align: center;
 }
+
+footer {
+    background-color: rgb(43, 5, 5);
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin: 0%;
+}
